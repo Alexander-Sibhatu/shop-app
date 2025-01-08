@@ -63,8 +63,20 @@ import w_trouser11 from './w_trouser11.jpg'
 import w_trouser12 from './w_trouser12.jpg'
 import w_trouser13 from './w_trouser13.jpg'
 import w_trouser14 from './w_trouser14.jpg'
+import logo from './showUp.svg'
+import profile_icon from './profiling_icon.svg'
+import search_icon from './searching_icon.svg'
+import cart_icon from './cart1_icon.svg'
+import menu_icon from './menu_icon.svg'
+import dropdown_icon from './dropdown_icon.svg'
 
 export const assets = {
+    dropdown_icon,
+    menu_icon,
+    cart_icon,
+    search_icon,
+    profile_icon,
+    logo,
     c_top1,
     c_top2,
     c_top3,
