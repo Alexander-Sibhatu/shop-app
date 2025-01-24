@@ -63,7 +63,7 @@ import w_trouser11 from './62w_trouser11.jpg'
 import w_trouser12 from './63w_trouser12.jpg'
 import w_trouser13 from './64w_trouser13.jpg'
 import w_trouser14 from './65w_trouser14.jpg'
-import logo from './showUp.svg'
+import logo from './logoC.svg'
 import profile_icon from './profiling_icon.svg'
 import search_icon from './searching_icon.svg'
 import cart_icon from './cart1_icon.svg'
@@ -71,8 +71,18 @@ import menu_icon from './menu_icon.svg'
 import dropdown_icon from './dropdown_icon.svg'
 import hero from './hero.jpg'
 import cross_icon from './cross_icon.svg'
+import bin_icon from './bin_icon.svg'
+import stripe_logo from './stripe_logo.png'
+import razorpay_logo from './razorpay_logo.svg'
+import about_img from './about_img.jpg'
+import contact_img from './contact_img.jpg'
 
 export const assets = {
+    contact_img,
+    about_img,
+    razorpay_logo,
+    stripe_logo,
+    bin_icon,
     cross_icon,
     hero, dropdown_icon,
     menu_icon, cart_icon,
