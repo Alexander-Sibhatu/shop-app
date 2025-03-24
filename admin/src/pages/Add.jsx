@@ -53,6 +53,8 @@ const Add = ({ token }) => {
         setImage3('');
         setImage4('');
         setPrice('');
+        setSizes('')
+        setBestseller("false")
       } else {
         toast.error(response.data.message)
       }
