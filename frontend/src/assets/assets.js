@@ -63,6 +63,7 @@ import w_trouser11 from './62w_trouser11.jpg'
 import w_trouser12 from './63w_trouser12.jpg'
 import w_trouser13 from './64w_trouser13.jpg'
 import w_trouser14 from './65w_trouser14.jpg'
+import w_top25 from './66w_top25.jpg'
 import logo from './logoC.svg'
 import profile_icon from './profiling_icon.svg'
 import search_icon from './searching_icon.svg'
@@ -73,14 +74,20 @@ import hero from './hero.jpg'
 import cross_icon from './cross_icon.svg'
 import bin_icon from './bin_icon.svg'
 import stripe_logo from './stripe_logo.png'
-import razorpay_logo from './razorpay_logo.svg'
+import mollie_logo from './mollie_logo.svg'
 import about_img from './about_img.jpg'
 import contact_img from './contact_img.jpg'
+import exchange_icon from './exchange_icon.svg'
+import return_icon from './return_icon.svg'
+import customer_support_icon from './customer_support_icon.svg'
 
 export const assets = {
+    customer_support_icon,
+    return_icon,
+    exchange_icon,
     contact_img,
     about_img,
-    razorpay_logo,
+    mollie_logo,
     stripe_logo,
     bin_icon,
     cross_icon,
@@ -113,6 +120,7 @@ export const assets = {
     w_top19, w_top20,
     w_top21, w_top22,
     w_top23, w_top24,
+    w_top25,
     w_trouser1, w_trouser2,
     w_trouser3, w_trouser4,
     w_trouser5, w_trouser6,
@@ -169,7 +177,7 @@ export const products = [
         _id: 'aaaar',
         name: 'Men top Round Neck Cotton Top',
         description: " men's top is crafted from high-quality cotton, designed with a comfortable round neck for a relaxed and stylish fit.",
-        price: 82,
+        price: 42,
         image: [
             m_top4,
         ],
@@ -196,7 +204,7 @@ export const products = [
 
     {
         _id: 'aaaat',
-        name: 'Men Trouser Cotton Top',
+        name: 'Men Trouser Cotton',
         description: "Men’s trousers are designed for both style and comfort, crafted from premium, breathable fabric.",
         price: 58,
         image: [
@@ -210,8 +218,8 @@ export const products = [
     },
     {
         _id: 'aaaau',
-        name: 'Men Trouser Cotton Top',
-        description: "Men’s trousers are designed for both style and comfort, crafted from premium, breathable fabric.",
+        name: 'Men Trouser Cotton',
+        description: "Aonga New Loose Jogging Pants Men New Fashion Fleece Autumn Winter Warm Sweatpants Male Outdoor Straight Trousers Pantalon Hommes XL(62-70kg)-black sweatpants.",
         price: 83,
         image: [
             m_trouser2,
@@ -224,7 +232,7 @@ export const products = [
     },
     {
         _id: 'aaaav',
-        name: 'Men Trouser Cotton Top',
+        name: 'Men Trouser Cotton',
         description: "Men’s trousers are designed for both style and comfort, crafted from premium, breathable fabric.",
         price: 90,
         image: [
@@ -252,7 +260,7 @@ export const products = [
     },
     {
         _id: 'aaaax',
-        name: 'Men Trouser Cotton Top',
+        name: 'Men Trouser Cotton',
         description: "Men’s trousers are designed for both style and comfort, crafted from premium, breathable fabric.",
         price: 64,
         image: [
@@ -266,7 +274,7 @@ export const products = [
     },
     {
         _id: 'aaaay',
-        name: 'Men Trouser Cotton Top',
+        name: 'Men Trouser Cotton',
         description: "Men’s trousers are designed for both style and comfort, crafted from premium, breathable fabric.",
         price: 60,
         image: [
@@ -280,7 +288,7 @@ export const products = [
     },
     {
         _id: 'aaaaz',
-        name: 'Men Trouser Cotton Top',
+        name: 'Men Trouser Cotton',
         description: "Men’s trousers are designed for both style and comfort, crafted from premium, breathable fabric.",
         price: 54,
         image: [
@@ -294,7 +302,7 @@ export const products = [
     },
     {
         _id: 'aaaba',
-        name: 'Men Trouser Cotton Top',
+        name: 'Men Trouser Cotton',
         description: "Men’s trousers are designed for both style and comfort, crafted from premium, breathable fabric.",
         price: 58,
         image: [
@@ -311,7 +319,7 @@ export const products = [
         _id: "aaaaa",
         name: "Kids Designed Top",
         description: "A lightweigh, usually knitted by hand, pullover shirt, close_fitting and with suitable texture",
-        price: 40,
+        price: 43,
         image: [
             c_top1, 
         ],
@@ -409,7 +417,7 @@ export const products = [
         _id: "aaaah",
         name: "Kids Designed Top",
         description: "A lightweigh, usually knitted by hand, pullover shirt, close_fitting and with suitable texture",
-        price: 48,
+        price: 42,
         image: [
             c_top8,
                 
@@ -555,7 +563,7 @@ export const products = [
         _id: 'aaafa',
         name: "Women's Top",
         description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
-        price: 84,
+        price: 23,
         image: [
             w_top4,
         ],
@@ -568,7 +576,7 @@ export const products = [
     {
         _id: 'aaaga',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "AUTOMET Womens Hoodies Half Zip Sweatshirts Fleece….",
         price: 84,
         image: [
             w_top5,
@@ -610,7 +618,7 @@ export const products = [
     {
         _id: 'aaaja',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "Cozy Crew-Neck Sweater _ Old Navy",
         price: 84,
         image: [
             w_top8,
@@ -638,7 +646,7 @@ export const products = [
     {
         _id: 'aaala',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "EFAN Womens Oversized Hoodies Sweatshirts Fleece Hooded Pullover Tops Sweaters Casual Comfy Fall Fas",
         price: 84,
         image: [
             w_top10,
@@ -652,7 +660,7 @@ export const products = [
     {
         _id: 'aaama',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "EFAN Womens Oversized Sweatshirts Hoodies Fleece Crew Neck Pullover Sweaters Casual Comfy Fall Fashion Outfits Clothes 2024",
         price: 84,
         image: [
             w_top11,
@@ -680,7 +688,7 @@ export const products = [
     {
         _id: 'aaaoa',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "Eyelet Round Neck Puff Sleeve Blouse",
         price: 84,
         image: [
             w_top13,
@@ -708,7 +716,7 @@ export const products = [
     {
         _id: 'aaaqa',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "Miqieer Basic Women's Silk Tank Top Ladies V-Neck Camisole Silky Loose Sleeveless Blouse Satin Tank Shirt",
         price: 84,
         image: [
             w_top15,
@@ -792,7 +800,7 @@ export const products = [
     {
         _id: 'aaawa',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "Vivilli Women's Short Sleeve Tops and Blouses Business Casual Collared Tunic Shirt.",
         price: 60,
         image: [
             w_top21,
@@ -806,7 +814,7 @@ export const products = [
     {
         _id: 'aaaxa',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "WDIRARA Women's Floral Printed Wrap Blouses V Neck Tie Front Short Sleeve Casual Boho Crop Tops.",
         price: 82,
         image: [
             w_top22,
@@ -820,7 +828,7 @@ export const products = [
     {
         _id: 'aaaya',
         name: "Women's Top",
-        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        description: "Women's Dark Style Loose Fit Round Neck Tee With Black Bear & Letter Print ATTITUDE BE YOURSELF.",
         price: 80,
         image: [
             w_top23,
@@ -838,6 +846,20 @@ export const products = [
         price: 79,
         image: [
             w_top24,
+        ],
+        category: "Women",
+        subCategory: "Topwear",
+        sizes: ["XS", "S", "M", "L", "XL"],
+        date: 1716634345451,
+        bestseller: true,
+    },
+    {
+        _id: 'baaaa',
+        name: "Women's Top",
+        description: "Featuring a chic design and flattering fit, it pairs effortlessly with jeans, skirts, or trousers for a versatile look.",
+        price: 26,
+        image: [
+            w_top25,
         ],
         category: "Women",
         subCategory: "Topwear",
@@ -935,7 +957,7 @@ export const products = [
         _id: 'aahaa',
         name: "Women's bottomwear",
         description: "Designed for style and comfort, this women’s bottomwear is crafted from premium, breathable fabric that offers a perfect fit and ease of movement.",
-        price: 60,
+        price: 46,
         image: [
             w_trouser7,
         ],
@@ -963,7 +985,7 @@ export const products = [
         _id: 'aajaa',
         name: "Women's bottomwear",
         description: "Designed for style and comfort, this women’s bottomwear is crafted from premium, breathable fabric that offers a perfect fit and ease of movement.",
-        price: 60,
+        price: 49.99,
         image: [
             w_trouser9,
         ],
@@ -991,7 +1013,7 @@ export const products = [
         _id: 'aalaa',
         name: "Women's bottomwear",
         description: "Designed for style and comfort, this women’s bottomwear is crafted from premium, breathable fabric that offers a perfect fit and ease of movement.",
-        price: 60,
+        price: 30,
         image: [
             w_trouser11,
         ],
