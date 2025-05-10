@@ -22,10 +22,10 @@ const Footer = () => {
             <div>
                 <p className='text-xl font-medium mb-5'>COMPANY</p>
                 <ul className='flex flex-col gap-1 text-gray-600'>
-                    <li><Link to='/' onClick={scrollToTop}>Home</Link></li>
-                    <li><Link to='/about' onClick={scrollToTop}>About us</Link></li>
-                    <li><Link>Delivery</Link></li>
-                    <li><Link>Privacy policy</Link></li>
+                    <Link to='/' onClick={scrollToTop}>Home</Link>
+                    <Link to='/about' onClick={scrollToTop}>About us</Link>
+                    <Link>Delivery</Link>
+                    <Link>Privacy policy</Link>
                 </ul>
             </div>
 
